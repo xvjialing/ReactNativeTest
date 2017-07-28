@@ -6,22 +6,12 @@ export default class LifeCycleComponent extends Component{
     super(props);
   }
 
-  getInitialState(){
-
-  }
-
-  componentWillMount(){
-
-  }
-
-  componentDidMount(){
-
-  }
-
-  componentWillReceiveProps(extProps){
-    
-  }
+  
   render(){
 
   }
 }
+
+const newStyle=Stylesheet.create({
+
+})

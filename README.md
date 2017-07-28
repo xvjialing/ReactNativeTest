@@ -1,16 +1,37 @@
 #### *flexDirection*
 flexDirection可以决定布局的主轴。子元素是应该沿着水平轴(row)方向排列，还是沿着竖直轴(column)方向排列呢？默认值是竖直轴(column)方向。
 
-    对应的这些可选项有：column,row,column-reverse,row-reverse
+    对应的这些可选项有：column,row
+    row：主轴为水平方向，起点在左端。
+    row-reverse：主轴为水平方向，起点在右端。
+    column(默认值)：主轴为垂直方向，起点在上沿。
+    column-reverse：主轴为垂直方向，起点在下沿。
 
 #### *justifyContent*
 justifyContent可以决定其子元素沿着主轴的排列方式。
 
     对应的这些可选项有：flex-start、center、flex-end、space-around以及space-between
+    flex-start(默认值)：伸缩项目向一行的起始位置靠齐。
+    flex-end：伸缩项目向一行的结束位置靠齐。
+    center：伸缩项目向一行的中间位置靠齐。
+    space-between：两端对齐，项目之间的间隔都相等。
+    space-around：伸缩项目会平均地分布在行里，两端保留一半的空间。
 
-#### *Align Items*
+#### *AlignItems*
 alignItems可以决定其子元素沿着次轴（与主轴垂直的轴，比如若主轴方向为row，则次轴方向为column）的排列方式。
 
     对应的这些可选项有：flex-start、center、flex-end以及stretch。
+    flex-start：交叉轴的起点对齐。
+    flex-end：交叉轴的终点对齐 。
+    center：交叉轴的中点对齐。
+    baseline：项目的第一行文字的基线对齐。
+    stretch（默认值）：如果项目未设置高度或设为auto，将占满整个容器的高度
+    
+#### *flexWrap*
+    
+    对应的选项：`nowrap | wrap | wrap-reverse`
+    默认情况下，项目都排在一条线（又称"轴线"）上。flex-wrap属性定义，如果一条轴线排不下，如何换行。
+![img1](https://mmbiz.qpic.cn/mmbiz/57sLf8oUA1sI4h5lQz8OJtAKzIJvfAibD7XE0ZhFloNnQ3Ot7njgsFmicyYwWaibZaXwM0icCJqXPT96tFlrfNbGaw/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1)
+
 
 引入的类名一定要在前加入 export default

@@ -9,6 +9,6 @@ import {
   AppRegistry
 } from 'react-native';
 
-import setup from './setup'
+import Setup from './setup'
 
-AppRegistry.registerComponent('ReactNativeTest', () => setup);
+AppRegistry.registerComponent('ReactNativeTest', () => Setup);
