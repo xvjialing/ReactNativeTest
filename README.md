@@ -33,5 +33,18 @@ alignItems可以决定其子元素沿着次轴（与主轴垂直的轴，比如�
     默认情况下，项目都排在一条线（又称"轴线"）上。flex-wrap属性定义，如果一条轴线排不下，如何换行。
 ![img1](https://mmbiz.qpic.cn/mmbiz/57sLf8oUA1sI4h5lQz8OJtAKzIJvfAibD7XE0ZhFloNnQ3Ot7njgsFmicyYwWaibZaXwM0icCJqXPT96tFlrfNbGaw/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1)
 
+1. nowrap(默认值)：不换行。
+
+![img2](https://mmbiz.qpic.cn/mmbiz/57sLf8oUA1sI4h5lQz8OJtAKzIJvfAibDrRQVLBRNWt0RKVWxDiaia5rCSwhvDfxQevBYDeeO0I2beUcjTjfMdguw/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1)
+
+2. wrap：换行，第一行在上方。
+
+![img3](https://mmbiz.qpic.cn/mmbiz/57sLf8oUA1sI4h5lQz8OJtAKzIJvfAibDlTqUdZRJsBkk1weL4PPhsQbU3lQwMj0u8KyxdoWhQZoByZ9q4ib2NOg/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1)
+
+3. wrap-reverse：换行，第一行在下方。（和wrap相反）
+
+![img4](https://mmbiz.qpic.cn/mmbiz/57sLf8oUA1sI4h5lQz8OJtAKzIJvfAibDYK3nnHib1YnnqCO6UfKSjofv8jhBRYQc3KXpoYt5FwyBamB3fD9xXDA/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1)
+
+
 
 引入的类名一定要在前加入 export default
