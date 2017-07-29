@@ -47,4 +47,6 @@ alignItems可以决定其子元素沿着次轴（与主轴垂直的轴，比如�
 
 
 
-引入的类名一定要在前加入 export default
+>引入的类名一定要在前加入 export default,或者在最后使用moudle.exports=类名
+
+

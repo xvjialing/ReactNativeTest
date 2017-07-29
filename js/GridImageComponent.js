@@ -39,6 +39,7 @@ export default class GridImageComponent extends Component{
                     <Text style={styles.titlesStyle}>{badge.title}</Text>
                 </View>
             );
+            console.log(badge.icon)
         }
         //
         //
