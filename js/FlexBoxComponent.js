@@ -15,6 +15,8 @@ export default class DimensionsComponent extends Component{
             </View>
         );
     }
+
+    
 }
 
 const styles=StyleSheet.create({
