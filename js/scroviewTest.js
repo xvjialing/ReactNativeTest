@@ -4,7 +4,11 @@ import{ ScrollView, Image, Text, View } from 'react-native'
 export default class ScrollViewTest extends Component {
     render() {
         return(
-            <ScrollView>
+            <ScrollView
+                horizontal={true}
+                showsHorizontalScrollIndicator={false}
+                pagingEnabled={true}
+                >
                 <Text style={{fontSize:96}}>Scroll me plz</Text>
 
                 <Image source={require('../img/train.png')} />

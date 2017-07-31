@@ -63,4 +63,11 @@ alignItems可以决定其子元素沿着次轴（与主轴垂直的轴，比如�
 
 设置当用户触摸的时候，组件的透明度
 
+#### 得到具体View对象
+    <View ref="event"></View>
+    //拿到View
+    this.refs.event
+    
+
+
 

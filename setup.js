@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import {View } from 'react-native';
 import FlatListComponent from './js/FlatListComponent'
 import SectionListComponent from './js/SectionListComponent'
+import ScrollViewTest from './js/scroviewTest'
 import DimensionsComponent from './js/FlexBoxComponent'
 import GridImageComponent from './js/GridImageComponent'
 import TextInputComponent from './js/TextInputComponent'
@@ -12,7 +13,7 @@ export default class Setup extends Component {
     render() {
         return (
             <View style={{flex:1}}>
-                <TouchableComponent/>
+                <ScrollViewTest/>
             </View>
         );
     }
